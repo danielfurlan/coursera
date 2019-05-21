@@ -1,0 +1,394 @@
+body {
+			background-image: linear-gradient(#01090f, #100000);
+			background-image: radial-gradient(#5d8aad, #100000, #250a33);
+			font-size: 15px;
+			box-sizing: border-box;
+			margin: 0;
+			width: 100%;
+			font-family: 'Charm', cursive;
+			display: block;
+			padding : 0px;
+			height: 100%;
+}
+#rowvideo {
+	margin-bottom: 35px;
+	margin-top: 35px;
+}
+
+hr {
+	border-top: 2.5px solid #a6ad3d;
+	width: 70%;
+}
+#description {
+	color: white;
+	margin-top: 10px;
+}
+.container {
+	padding: 0;
+}
+.col-lg-5, .col-md-5, .col-sm-5, .col-xs-5 {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.col-lg-5, .col-md-5, .col-sm-5, .col-xs-5 {
+	max-width: 20%;
+	flex: 0 0 20%;
+	-ms-flex: 0 0 20%;
+}
+
+/**********************************NAVBAR*****************/
+#headphoto {
+	background-image: url("Images/sescnblues.jpg");
+	background-position: center top;
+   	font-family: 'Indie Flower', cursive;
+}
+#header-nav {
+	background-color: #2f101e; /*marron*/
+	background-image: radial-gradient(#2d0f0f, #090507, #083ba4);
+	border-radius: 0;
+	border: 0;
+	opacity: 0.8;
+}
+.navbar-header {
+	width: 100%;
+}
+.navbar-toggler {
+	float: right;
+	background-color: #a16681;
+}
+.navbar-toggler:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+	background-color: #a16681;
+}
+.nav-item {
+	width: 100%;
+	box-shadow: 0px 0.5px 0px 0 brown;
+}
+.collapse div{
+	margin: 10px;
+}
+.navbar-nav {
+	padding: 0;
+}
+
+.navbar-nav a{
+	color: #a6a855; /*gold*/
+	font-size: 1.6em;
+}
+.navbar-nav > a{
+	box-shadow: 1px 1px 5px 1px gray;
+}
+#navbarSupportedContent li{
+	text-align: center;
+	width: 100%;
+	border-radius: 25px;
+	box-shadow: 0.5px 1px 1px 0.5px #e4e2b5;
+	height: 70px;
+}
+#navbarSupportedContent span {
+	padding-right: 13px;	
+	margin-top: 5px;
+}
+
+#navbarSupportedContent li:hover {
+	text-shadow: 1.5px 1.5px white;		
+	box-shadow: 2px 2px white;
+}
+#navbarSupportedContent div{
+	margin: 10px 0px 10px 0px;
+
+}
+#navbarSupportedContent div:hover{
+	color: white;
+}
+
+/************************END NAVBAR*****************/
+
+
+/************************START PAGE*****************/
+#sescPhoto {
+	align-items: center;
+}
+#page {
+	box-sizing: border-box;
+	display: grid;
+	position: relative;
+	padding: 0px;
+}
+
+#content {
+	width: 1OO%;
+	margin-bottom: 100px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+.video {
+	width: 760px;
+	margin: 20px auto 20px auto;
+
+}
+
+#post {
+	width: 60%;
+	padding : 0px;
+	text-align: center;
+}
+
+#articleTitle {
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+
+
+#bio {
+	font-size: 4em;
+	color: #a19c3e;
+	text-align: center;
+	text-shadow: 1px 1px white;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+#videos {
+	font-size: 4em;
+	color: #a19c3e;
+	text-align: center;
+	text-shadow: 1px 1px white;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+/*****************************MUSIC PAGE*******************/
+#musics {
+	font-size: 4em;
+	color: #a19c3e;
+	text-align: center;
+	text-shadow: 1px 1px white;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.oi a:hover .dropdown-content {
+	display: block;
+}
+.catphoto {
+	background-image: radial-gradient(#5d8aad, #100000, #f3cb57);
+	box-shadow: 0 1px 1px 0 gold;
+	color: white;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px gold;
+	border-radius: 30%;
+	height: 70px;
+	width: 70%;
+	margin: 0 auto 50px;
+}
+.catphoto span {
+	width: 100%;
+	position: relative;
+	top: 25%;
+}
+a:hover {
+	text-decoration: none;
+}
+.dropdown2 {
+	position: relative;
+	width: 70%;
+	height: 70px;
+	background-image: inherit;
+	border-radius: 30%;
+	margin: 0 auto 50px;
+}
+.dropdown-content {
+	display: none;
+	z-index: 1;
+}
+.dropdown-content a{
+	display: block;
+	font-size: 1.3em;
+	font-style: inherit;
+	color: tomato;
+}
+.dropdown-content a:hover{
+	color: white;
+	font-size: 1.4em;
+}
+.oi:hover .dropdown-content {
+	display: block;
+	/*box-shadow: 1px 1px 1px 1px white;*/
+}
+
+
+/*************************END MUSIC PAGE*********************/
+
+/************************START BIOGRAPHY********************/
+
+#biotext {
+	width: 66.6%;
+	font-size: 1.1em;
+	color: white;
+	padding-right: 20px;
+}
+
+#self {
+	background-image: url("Images/self.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 33.3%;
+	height: 500px;
+}
+
+/**************************END BIOGRAPHY***********************/
+/* Dropdown content for MUSIC*/
+
+
+/**************************STARTS FOOTER************************/
+
+.panel-footer{
+	background-image: linear-gradient(#574d4d,#2f5598);
+	color: #d1db37; /*gold*/
+}
+
+.panel-footer span, .panel-footer div{
+	text-align: center;
+}
+.panel-footer div.text-center {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #f6f5c2; /*white gold*/
+	margin-top: 10px;
+}
+
+.panel-footer .row #city,.panel-footer .row #hour {
+	margin-top: 15px;
+	font-size: 1.2em;
+}
+
+/******************************END FOOTER**********************/
+
+
+/***************************MEDIA QUERIES*********************/
+@media (max-width: 991px){
+	#headphoto {
+				color: #d4a336;
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+			background-image: url("Images/768.jpg");
+				background-position: center;
+				background-size: cover;
+			padding-top: 150px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+.nav-item a{
+	font-size: 3vw;
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	#headphoto {
+				color: #d4a336;
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-image: url("Images/992.jpg") no-repeat ;
+				background-position: center;
+				background-size: cover;
+			padding-top: 150px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+		}
+		.container {
+	padding: 0;
+	max-width: 1199px;
+}
+}
+
+@media (min-width: 1200px){
+#headphoto {
+			color: #09488d;
+
+
+   font-family: 'Indie Flower', cursive;
+			 font-size: 130px;
+			text-align: center; 
+				background-image: url("Images/1200.jpg") no-repeat ;
+				background-position: center;
+				background-size: cover;
+			padding-top: 100px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+.container {
+	padding: 0;
+	max-width: 1200px;
+}
+}
+
+@media (max-width: 479px){
+	.nav-item a{
+		font-size: 0.8em;
+		margin: 10px;
+	}
+}
+
+.dropdown {
+	color: green;
+	height: 30px;
+	width: 60px;
+	position: relative;
+	border-style: solid;
+	border-color: pink;
+	text-align: center;
+	background-color: green;
+	left: 100px;
+}
+
+.dropdown:hover {
+	color: pink;
+}
+.dropdown-content:hover {
+	display: block;
+}
+
+.sub-menu {
+	background: #DDD;
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	transform: translateY(-2em);
+	z-index: -1;
+	transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+.dropdown: focus .sub-menu, .dropdown: focus-within .sub-menu,
+.dropdown: hover .sub-menu{
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+	transform: translateY(0%);
+	transition-delay: 0s, 0s, 0.3s;
+}
+
+nav {
+	color: black;
+	display: block;
+}

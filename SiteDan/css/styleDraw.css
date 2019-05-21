@@ -1,0 +1,120 @@
+body {
+			background-image: linear-gradient(#01090f, #100000);
+			background-image: radial-gradient(#5d8aad, #100000, #250a33);
+			font-size: 15px;
+			box-sizing: border-box;
+			margin: 0;
+			width: 100%;
+			font-family: 'Charm', cursive;
+			display: block;
+			padding : 0px;
+			height: 100%;
+}
+.frame{
+	height: 350px;
+	width: 100%;
+}
+#top{
+	background-color: red;
+}
+#middle{
+	background-color: blue;
+}
+#bottom{
+	background-color: yellow;
+}
+
+
+.container {
+	padding: 0;
+	width: 1300px;
+}
+.col-lg-5, .col-md-5, .col-sm-5, .col-xs-5 {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.col-lg-5, .col-md-5, .col-sm-5, .col-xs-5 {
+	max-width: 20%;
+	flex: 0 0 20%;
+	-ms-flex: 0 0 20%;
+}
+
+
+/*#page {
+	box-sizing: border-box;
+	display: grid;
+	position: relative;
+	padding: 0px;
+}*/
+
+/*#content {
+	width: 1OO%;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}*/
+
+
+/*STARTS FOOTER*/
+
+.panel-footer{
+	background-image: linear-gradient(#574d4d,#2f5598);
+	color: #d1db37; /*gold*/
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.panel-footer span, .panel-footer div{
+	text-align: center;
+}
+.panel-footer div.text-center {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #f6f5c2; /*white gold*/
+	margin-top: 10px;
+}
+
+.panel-footer .row #city,.panel-footer .row #hour {
+	margin-top: 15px;
+	font-size: 1.2em;
+}
+
+/*END FOOTER*/
+
+@media (max-width: 991px){
+
+
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+		.container {
+	padding: 0;
+	max-width: 1199px;
+}
+}
+
+@media (min-width: 1200px){
+
+.container {
+	padding: 0;
+	/*max-width: 100%;*/
+}
+}
+
+@media (max-width: 479px){
+
+}
+
+
+
+

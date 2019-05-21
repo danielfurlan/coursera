@@ -1,0 +1,271 @@
+body {
+			background-image: linear-gradient(#01090f, #100000);
+			background-image: radial-gradient(#aacae4, #c0cc4f, #a9b71f);
+			font-size: 15px;
+			box-sizing: border-box;
+			margin: 0;
+			width: 100%;
+			font-family: 'Charm', cursive;
+			display: block;
+			padding : 0px;
+			height: 100%;
+
+}
+#description{
+
+	color: #14207d;
+	font-size: 1.6em;
+/*	border: solid;*/
+	border-radius: 15%;
+	border-color: #c0cfa4;
+	margin: 50px auto auto auto;
+	box-shadow: 1px 1px 1px 0px darkmagenta;
+	width: 50%;
+	height: 750px;
+}
+#description li {
+	list-style-type: none;
+	margin: 30px;
+	font-family: 'Sofia', cursive;
+}
+#description p {
+	margin-bottom: 50px;
+}
+#name {
+	background-color: #a9b74e;
+	border-radius: 30% 0% 50% 50%;
+	font-size: 1.6em;
+	color: #e1e6a1;
+	font-family: 'Indie Flower', cursive;
+	margin: 0 auto;
+	width: 50%;
+	border: solid;
+	border-color: #4576b7;
+	border-width: 2.8px;
+	background-image: linear-gradient(#4b2f2f, #f2e5b8);
+}
+/**********************CATEGORIES********************/
+#categories{
+	height: 500px;
+}
+.catpos {
+	/*background-color: #d4c95a;*/
+/*	border-style: solid;
+	border-color: red;*/
+	height: 300px;
+	margin-top: 40px;
+	border-radius: 20%;
+}
+#desserts{
+	background-image: url("../Images/dessert.png");
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-right: 20px;
+}
+#desserts div {
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.2em;
+	margin: 30px;
+	color:#3c8c99;
+}
+#breakfast{
+	background-image: url("../Images/break.png");
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-right: 20px;
+}
+#breakfast div {
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.2em;
+	margin: 30px;
+	color:#3c8c99;
+}
+#meals{
+	background-image: url("../Images/meal.png");
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: -40px;
+}
+#meals div {
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.2em;
+	margin: 30px;
+	color:#3c8c99;
+}
+#meals:hover {
+	/*background-color: #3c8c99;*/
+	text-decoration: none;
+	font-size: 1.2em;
+	text-shadow: 2px 2px 1px 1px white;
+	background-size: 200px 200px;
+	transform: rotate(15deg);
+}
+#tips{
+	background-image: url("../Images/break.png");
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: -40px;
+}
+#tips div {
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.2em;
+	margin: 30px;
+	color:#3c8c99;
+}
+.container {
+	padding: 0;
+}
+.col-lg-5, .col-md-5, .col-sm-5, .col-xs-5 {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.col-lg-5, .col-md-5, .col-sm-5, .col-xs-5 {
+	max-width: 20%;
+	flex: 0 0 20%;
+	-ms-flex: 0 0 20%;
+}
+#page {
+	box-sizing: border-box;
+	display: grid;
+	position: relative;
+	padding: 0px;
+	margin: 0 auto 300px auto;
+}
+
+#content {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+#headphoto {
+	background-image: url("../Images/tableFood.jpeg");
+	height: 400px;
+   	font-family: 'Indie Flower', cursive;
+}
+
+
+#bio {
+	font-size: 4em;
+	color: #a19c3e;
+	text-align: center;
+	text-shadow: 1px 1px white;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+#biotext {
+	width: 66.6%;
+	font-size: 1.1em;
+	color: white;
+	padding-right: 20px;
+}
+
+
+
+/*STARTS FOOTER*/
+
+.panel-footer{
+	background-image: linear-gradient(#574d4d,#2f5598);
+	color: #d1db37; /*gold*/
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.panel-footer span, .panel-footer div{
+	text-align: center;
+}
+.panel-footer div.text-center {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #f6f5c2; /*white gold*/
+	margin-top: 10px;
+}
+
+.panel-footer .row #city,.panel-footer .row #hour {
+	margin-top: 15px;
+	font-size: 1.2em;
+}
+
+/*END FOOTER*/
+
+@media (max-width: 991px){
+	#headphoto {
+				color: #d4a336;
+		font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+			background-image: url("Images/tableFood.jpeg");
+				background-position: center;
+				background-size: cover;
+			padding-top: 50px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	#headphoto {
+				color: #d4a336;
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-image: url("Images/tableFood.jpeg") no-repeat ;
+				background-position: center;
+				background-size: cover;
+			padding-top: 50px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+		}
+		.container {
+	padding: 0;
+	max-width: 1199px;
+}
+}
+
+@media (min-width: 1200px){
+#headphoto {
+			color: #09488d;
+   			font-family: 'Indie Flower', cursive;
+			font-size: 170px;
+			text-align: center; 
+				background-image: url("Images/tableFood.jpeg") no-repeat ;
+				background-position: center;
+				background-size: cover;
+			padding-top: 50px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+			position: relative;
+}
+.container {
+	padding: 0;
+	max-width: 1200px;
+}
+}
+
+@media (max-width: 479px){
+
+}
+
+
